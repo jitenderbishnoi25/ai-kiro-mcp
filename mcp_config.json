@@ -1,0 +1,12 @@
+{
+  "mcpServers": {
+    "google-sheets": {
+      "command": "uvx",
+      "args": ["mcp-gsheets@latest"],
+      "env": {
+        "GOOGLE_PROJECT_ID": "kiro-sheets-agent",
+        "GOOGLE_APPLICATION_CREDENTIALS": "../kiro-sheets-agent-34e2628de8e6.json"
+      }
+    }
+  }
+}
