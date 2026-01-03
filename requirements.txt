@@ -1,0 +1,6 @@
+# MCP client dependencies
+mcp>=1.0.0
+
+# Optional: For more advanced MCP client features
+# asyncio-mqtt
+# websockets

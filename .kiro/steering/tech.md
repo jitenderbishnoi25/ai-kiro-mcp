@@ -27,5 +27,11 @@ Since this is a configuration-only project, there are no build or test commands.
 ### Manual Testing (if needed)
 ```bash
 # Test MCP server connection (run from project root)
-uvx mcp-gsheets@latest
+uvx mcp-google-sheets@latest
 ```
+
+## MCP Client Development
+- **MCP Python SDK**: `pip install mcp` for building custom clients
+- **JSON-RPC Protocol**: Communication via stdin/stdout using JSON-RPC 2.0
+- **Client Examples**: See `MCP_CLIENT_GUIDE.md` for implementation details
+- **Testing Tools**: Custom Python scripts can test MCP server functionality
